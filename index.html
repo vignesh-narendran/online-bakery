@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Bakery</title>
+</head>
+<script src="script.js"></script>
+
+<body>
+    <div class="main-container">
+        <div class="popup">
+            <p class="popuptext">Total price</p>
+            <h1 class="totalAmt"></h1>
+        </div>
+        <div class="notch">
+        </div>
+        <div class="sub-container">
+            <h2 class="bakery-name">221B, Baker Street</h2>
+            <table class="table-product-display">
+                <tr>
+                    <td>
+                        <input type="button" class="left-arrow nav-arrows" value="<" />
+                    </td>
+                    <td>
+
+                        <div class="product-images-container">
+                            <img id="main-image" class="product-images" src="">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="button" class="right-arrow nav-arrows" value=">" />
+                    </td>
+                </tr>
+            </table>
+            <div class="description-box">
+                <table height="20" width="150" class="table-description">
+                    <tr>
+                        <td>
+                            <p id="foodname" class=" foodname desc-box-text">Food name</p>
+                            <p class="amount desc-box-text">$amt</p>
+                        </td>
+                        <td>
+                            <input value="ADD" type="button" class="add-checkout-btn" id="add" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="qty-box">
+                            <input value="-" type="button" class="qty" id="qty-dec" />
+                            <input type="text" class="qty-display" />
+                            <input value="+" type="button" class="qty" id="qty-inc" />
+                        </td>
+                        <td>
+                            <input value="CHECKOUT" type="button" class="add-checkout-btn" id="checkout" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

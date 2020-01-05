@@ -1,0 +1,144 @@
+body {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+.notch {
+    height: 20px;
+    width: 150px;
+    background-color: #ff3333;
+    z-index: 1;
+    margin-top: 0%;
+    margin-left: 20%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 30%;
+    border-radius: 10px;
+    left: 9%;
+    z-index: 9;
+    height: 150px;
+    width: 200px;
+    background-color: #00D62D;
+    text-align: center;
+}
+
+.main-container {
+    height: 500px;
+    width: 250px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px;
+    border: 6px solid #ff3333;
+}
+
+.sub-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+.product-images {
+    width: 100%;
+}
+
+.table-product-display {
+    text-align: center;
+}
+
+.description-box {
+    height: 100px;
+    width: 250px;
+}
+
+.table-description {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.qty-display {
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50%;
+}
+
+.nav-arrows {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff3333;
+    box-shadow: 2px 2px 4px #aaa;
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.bakery-name {
+    margin-bottom: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(#ff3333, #ff4444);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "comic sans ms";
+    font-size: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.desc-box-text {
+    line-height: 2px;
+    font-size: 20px;
+    font-family: "comic sans ms";
+    color: #ff3333;
+}
+
+.popuptext {
+    color: white;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+#foodname {
+    font-size: 30px;
+}
+
+.qty {
+    border: none;
+    border-radius: 50%;
+    background-color: #ff3333;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+.add-checkout-btn {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00D62D;
+    color: white;
+}
+
+#add {
+    background-color: #ff3333;
+}
+
+.totalAmt {
+    color: white;
+}
