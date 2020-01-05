@@ -27,8 +27,8 @@ $(document).ready(function () {
     $(".amount").text("$" + priceTable["cake"]);
 
     $(".foodname").text(items[n]);
-});
-$(".right-arrow").click(function () {
+    
+    $(".right-arrow").click(function () {
     $("#add").val("ADD");
     if (n < 3) {
         n = n + 1;
@@ -89,4 +89,5 @@ $("#checkout").click(function () {
 $(".popup").click(function () {
     $(".sub-container").show();
     $(".popup").hide();
+});
 });
